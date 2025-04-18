@@ -15,20 +15,6 @@ Welcome to my personal developer portfolio built with **Next.js**, **Tailwind CS
 - [DaisyUI](https://daisyui.com/)
 - [Lucide Icons](https://lucide.dev/)
 
-## ✨ Features
-
-- 🌓 Dark / Light Mode Toggle
-- 🎨 Beautiful animations with Framer Motion
-- 💻 Responsive design for all devices
-- 📁 Sections:
-  - Profile
-  - About
-  - Work Experience
-  - Projects
-  - Interests
-  - Education
-  - Contact
-  - Footer
 
 
 ## 📬 Contact
