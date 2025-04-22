@@ -16,3 +16,12 @@ html {
     background-color: #ffffff; 
     color: black;
   }
+  /* globals.css or app/globals.css */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;    /* Firefox */
+}

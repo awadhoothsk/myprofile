@@ -13,7 +13,7 @@ export default function Sidebar() {
   const [showProfile, setShowProfile] = useState(false);
 
   return (
-    <div className="bg-[#2b2b2b] fixed top-18 left-40 h-[85vh] w-72 rounded-2xl p-6 text-center shadow-xl overflow-y-auto z-10 transition-all duration-300 ease-in-out flex flex-col justify-between">
+    <div className="bg-[#2b2b2b] fixed top-18 left-40 h-[85vh] w-72 rounded-2xl p-6 text-center shadow-xl overflow-y-auto hide-scrollbar z-10 transition-all duration-300 ease-in-out flex flex-col justify-between">
       <div className="flex flex-col items-center">
         {/* Avatar */}
         <div
