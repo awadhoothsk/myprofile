@@ -6,7 +6,7 @@ import Sidebar from "../components/Sidebar";
 import About from "../components/About";
 import Resume from "../components/Resume";
 import { Portfolio } from "../components/Portfolio";
-import Blog from "../components/Blog";
+import Interests from "../components/Interests";
 import Contact from "../components/Contact";
 import { Briefcase, Layers, BookOpen, Mail } from "lucide-react";
 
@@ -47,7 +47,7 @@ export default function Home() {
       case "About": return animatedBox(<About />, <Briefcase />, "About");
       case "Resume": return animatedBox(<Resume />, <Briefcase />, "Resume");
       case "Portfolio": return animatedBox(<Portfolio />, <Layers />, "Portfolio");
-      case "Blog": return animatedBox(<Blog />, <BookOpen />, "Blog");
+      case "Interests": return animatedBox(<Interests />, <BookOpen />, "Interests");
       case "Contact": return animatedBox(<Contact />, <Mail />, "Contact");
       default: return animatedBox(<About />, <Briefcase />, "About");
     }

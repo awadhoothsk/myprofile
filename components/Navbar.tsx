@@ -22,7 +22,7 @@ export default function Navbar({ toggleTheme, darkMode, setActiveSection }: Navb
           { label: "About", icon: <User size={18} /> },
           { label: "Resume", icon: <FileText size={18} /> },
           { label: "Portfolio", icon: <Image size={18} /> },
-          { label: "Blog", icon: <Pen size={18} /> },
+          { label: "Interests", icon: <Pen size={18} /> },
           { label: "Contact", icon: <Mail size={18} /> },
         ].map(({ label, icon }) => (
           <button
