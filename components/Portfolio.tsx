@@ -42,8 +42,8 @@ export const Portfolio = () => {
     selectedCategory === "All"
       ? portfolioItems
       : portfolioItems.filter((item) =>
-          item.category.toLowerCase().includes(selectedCategory.toLowerCase())
-        );
+        item.category.toLowerCase().includes(selectedCategory.toLowerCase())
+      );
 
   return (
     <div className="w-full">
@@ -53,11 +53,10 @@ export const Portfolio = () => {
           <button
             key={cat}
             onClick={() => setSelectedCategory(cat)}
-            className={`text-sm font-medium border-b-2 px-3 pb-1 transition ${
-              selectedCategory === cat
+            className={`text-sm font-medium border-b-2 px-3 pb-1 transition ${selectedCategory === cat
                 ? "text-yellow-400 border-yellow-400"
                 : "text-gray-400 border-transparent hover:text-yellow-300"
-            }`}
+              }`}
           >
             {cat}
           </button>
